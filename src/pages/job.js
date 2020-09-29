@@ -10,7 +10,8 @@ const Job = () => {
 
   const getData = async () => {
     try {
-      const url = "http://localhost:5001/jobs/";
+      const url =
+        "https://my-json-server.typicode.com/MinhNguyen161/JobSearch/jobs";
       const response = await fetch(url);
       const data = await response.json();
       setJobList(data);

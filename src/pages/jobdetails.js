@@ -6,7 +6,7 @@ const JobDetails = () => {
   const [job, setJob] = useState(null);
   const { id } = useParams(); // lay cai param de lay ID
   const getDetail = async () => {
-    const url = `http://localhost:5001/jobs/${id}`;
+    const url = `https://my-json-server.typicode.com/MinhNguyen161/JobSearch/jobs/${id}`;
     const response = await fetch(url);
     const data = await response.json();
     setJob(data);
