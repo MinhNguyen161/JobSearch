@@ -11,11 +11,11 @@ const Routes = () => {
     <Switch>
       <Route path="/" exact component={Job} />
       <Route path="/login" exact component={Login} />
-      <Route path="*" component={ErrorPage} />
       <ProtectedRoute
         path="/detail/:id"
         render={(props) => <JobDetails name="Meo" />}
       />
+      <Route path="*" component={ErrorPage} />
     </Switch>
   );
 };
