@@ -1,0 +1,19 @@
+.job-content {
+  border: 2px solid rgb(246, 246, 24);
+  background-color: beige;
+  margin: 10px 300px;
+  padding: 10px 10px;
+}
+
+.job-detail {
+  border: 2px solid rgb(246, 246, 24);
+  background-color: beige;
+  margin: 100px 300px;
+  padding: 10px 10px;
+}
+.content {
+  padding: 40px;
+}
+.search-area {
+  margin: 30px 30px;
+}
